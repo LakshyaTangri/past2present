@@ -1,0 +1,12 @@
+
+
+https://www.geeksforgeeks.org/types-of-asymptotic-notations-in-complexity-analysis-of-algorithms/
+
+If it is resource problem, add time
+If it is time problem, add resource
+
+BigO is the best in all cases.
+
+Omega (Best Case) notation represents the lower bound of the running time of an algorithm. Thus, it provides the best case complexity of an algorithm.
+Theta (Average Case) You add the running times for each possible input combination and take the average in the average case.
+Big-O (Worst Case) notation represents the upper bound of the running time of an algorithm. Therefore, it gives the worst-case complexity of an algorithm.
