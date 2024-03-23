@@ -1,0 +1,94 @@
+DSA
+
+Data structures and algorithms go hand in hand. You may have a set of data arranged in a certain structure which you then pass into an algorithm to execute in a certain way.
+
+What is Data Structure?
+
+A data structure is a particular way data is arranged so it can be saved in memory and retrieved for later use.
+
+Data can be anything that can be saved. It could be primitive types like string, boolean, integer, or float. Or non-primitive types like arrays, linked list trees, stacks, and queues.
+
+Below is an example of a linked list in Python:
+
+# Linked list
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+class My_linkedlist:
+    def __init__(self):
+        self.head = None
+        
+    def append(self, data):
+        new_node = Node(data)
+        if self.head is None:
+            self.head = new_node
+            return
+        last_node = self.head
+        while last_node.next:
+            last_node = last_node.next
+        last_node.next = new_node
+        
+    def print_list(self):
+        current_node = self.head
+        while current_node:
+            print(current_node.data)
+            current_node = current_node.next
+
+linked_list = My_linkedlist()
+linked_list.append("List weekdays from the start:")
+linked_list.append("Monday")
+linked_list.append("Tuesday")
+linked_list.append("Wednesday")
+linked_list.append("Thursday")
+linked_list.append("Friday")
+linked_list.print_list()
+
+"""
+Output:
+Weekdays:
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+"""
+
+print()
+print()
+
+Each programming language has its own way of implementing those data structures and also has their on Data Type as well
+e.g python: tuples("","",), lists["","",], and dictionaries{"": ,"": ,}:
+
+
+----------------
+
+What is an Algorithm?
+
+An algorithm is a set of steps for solving a known problem. The problems solved by an algorithm could be sorting a set of data, searching through available data, or even encrypting data.
+
+Types of Algorithms
+There are a number of types of algorithms available today. There’s no particular way the types are characterized, but there are broad categories like sorting and searching algorithms.
+
+Examples of sorting algorithms are merge sort, bubble sort, selection sort, and others. And examples of searching algorithms are exponential search, binary search, jump search, and others.
+
+There are other types of algorithms like hashing, greeting algorithms, brute force algorithms, and more.
+
+# Bubble sort in Python
+def bubble_sort(arr):
+    n = len(arr)
+ 
+    for i in range(n):
+        for j in range(0, n-i-1):
+ 
+            if arr[j] < arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+ 
+    return arr
+ 
+arr = [10, 8, 9, 5, 7, 6, 3, 2, 1, 4]
+ 
+print("Array in descending order:", bubble_sort(arr))
+# Array in descending order: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+
