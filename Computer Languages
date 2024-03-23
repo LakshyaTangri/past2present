@@ -1,3 +1,11 @@
+After stardardizing the concept of the base tech (pure) and shifting to upscaling, implementation, penetration and diversification (applied)
+
+A stardard was set, defined by major bodies with power and user size, ECMA:
+Everything you need to learn about standard computer langauge ECMA: https://tc39.es/ecma262/
+
+----------
+Basic
+
 After the field of Information Technology landed on Ultra large-scale integration (ULSI) (is the process of integrating or embedding millions of transistors on a single silicon semiconductor microchip)
 The Field has not developed after that. However, the number of transistors from 1 Transistors to Crafted with 54 billion transistors, the NVIDIA Ampere architecture is the largest 7 nanometer (nm) chip ever built and features six key groundbreaking innovations in 2024.
 
@@ -6,6 +14,8 @@ ULSI Remains the same, the number of Transistor kept on increasing (A transistor
 ULSI, which stands for Ultra Large Scale Integration, is a technological process in the field of microelectronics that involves the integration of an exceptionally large number of transistors onto a single semiconductor chip.
 
 --------------
+
+OS
 
 After the physical components of a computer are assembled, the next step is to install and configure the software. This process typically involves several steps:
 
@@ -26,25 +36,29 @@ Testing and Optimization: Finally, the system should be thoroughly tested to ens
 By completing these steps, the computer is ready for use, tailored to the user's needs, and equipped with the necessary software to perform its intended tasks. Ongoing maintenance, updates, and monitoring will be required to keep the system running smoothly over time.
 
 ------------------
+CLI 
 
-After Physical and Operating System is developed and installed, a command line interface (CLI) to do calculation/ opreations at a fast pase is ready.
-Now we need a language: Shell 
+What is Common Language Infrastructure?
 
-A shell is a command-line interface that provides users with a way to interact with an operating system. It acts as an intermediary between the user and the operating system, allowing users to issue commands and execute programs. Shells provide a powerful and flexible environment for users to perform various tasks, including:
+Common Language Infrastructure, often simply referred to as CLI, forms an integral part of the .NET framework. It provides a platform-neutral environment, enabling the execution of programs written in various high-level languages. 
+This innovative functionality makes it possible for these diverse languages to interoperate seamlessly within the .NET framework.
 
-Running Programs: Users can run programs and applications by typing their names or paths into the shell and pressing enter. The shell locates the program, loads it into memory, and executes it.
+How does CLI work?
+The magic of the Common Language Infrastructure lies in its ability to enable interoperability between different programming languages. When a source code is compiled using a .NET language, it is not converted into machine code. Instead, it is transformed into an intermediate language known as the Common Intermediate Language (CIL). This CIL code is then executed by the Virtual Execution System at runtime.
 
-Managing Files and Directories: Shells allow users to navigate the file system, create, delete, move, copy, and manipulate files and directories. Users can also view file contents, change file permissions, and perform other file-related operations.
+Advantages of CLI
 
-Managing Processes: Users can manage processes running on the system using the shell. They can start, stop, suspend, resume, and monitor processes, as well as manage process priorities and resources.
+Platform independence
+One of the greatest advantages of the Common Language Infrastructure is its platform independence. The same CIL code can be executed on any device that has a compatible version of the .NET framework installed.
 
-Redirecting Input and Output: Shells support input and output redirection, allowing users to send the output of one command as input to another command, or redirect output to files or devices.
+Language interoperability
+CLI enables different programming languages to work together seamlessly. This means developers can choose the best language for a particular task without worrying about compatibility issues.
 
-Customization and Automation: Users can customize their shell environment by setting environment variables, defining aliases and functions, and creating shell scripts. Shell scripts are sequences of shell commands that can be saved to files and executed as programs, allowing users to automate tasks and perform complex operations.
+Enhanced performance
+Applications built with CLI tend to have enhanced performance. The CIL code is compiled into machine code just before execution, ensuring optimal performance.
 
-Networking: Shells provide commands and utilities for networking tasks such as connecting to remote systems, transferring files over networks, and configuring network settings.
+Robust security
+The Common Language Infrastructure offers robust security features. It provides mechanisms for type safety, code access security, and role-based security.
 
-System Administration: Shells are often used by system administrators to perform administrative tasks such as user management, system configuration, monitoring system performance, and troubleshooting.
-
-Overall, shells provide users with a versatile and powerful interface for interacting with the operating system and performing a wide range of tasks efficiently and effectively.
-
+Simplified development process
+Finally, the Common Language Infrastructure simplifies the development process. It reduces the complexity of deploying and versioning components, making it easier for developers to manage their projects.
