@@ -1,0 +1,50 @@
+Now we will enter the applied mathematics into the field of engineering and computing science. 
+Timeline of inventions and why then
+
+1600-1800
+A German mathematician-philosopher Gottfried Wilhelm Leibniz in 1673 developed this device by improving Pascal’s invention to develop this machine. It was basically a digital mechanical calculator, and it was called the stepped reckoner as it was made of fluted drums instead of gears.
+https://www.britannica.com/technology/Step-Reckoner
+
+1800-1900
+
+Difference Engine
+Charles Babbage who is also known as the “Father of Modern Computer” designed the Difference Engine in the early 1820s. Difference Engine was a mechanical computer which is capable of performing simple calculations. It works with help of steam as it was a steam-driven calculating machine, and it was designed to solve tables of numbers like logarithm tables.
+
+Analytical Engine
+Again in 1830 Charles Babbage developed another calculating machine which was Analytical Engine. Analytical Engine was a mechanical computer that used punch cards as input. It was capable of performing or solving any mathematical problem and storing information as a permanent memory (storage).
+
+Tabulating Machine
+Herman Hollerith, an American statistician invented this machine in the year 1890. Tabulating Machine was a mechanical tabulator that was based on punch cards. It was capable of tabulating statistics and record or sort data or information. This machine was used by U.S. Census in the year 1890. Hollerith’s Tabulating Machine Company was started by Hollerith and this company later became International Business Machine (IBM) in the year 1924.
+
+Differential Analyzer
+
+Differential Analyzer was the first electronic computer introduced in the year 1930 in the United States. It was basically an analog device that was invented by Vannevar Bush. This machine consists of vacuum tubes to switch electrical signals to perform calculations. It was capable of doing 25 calculations in a few minutes.
+
+Mark I
+
+In the year 1937, major changes began in the history of computers when Howard Aiken planned to develop a machine that could perform large calculations or calculations involving large numbers. In the year 1944, Mark I computer was built as a partnership between IBM and Harvard. It was also the first programmable digital computer marking a new era in the computer world.
+
+Generations of Computers
+
+First Generation Computers
+In the period of the year 1940-1956, it was referred to as the period of the first generation of computers. These machines are slow, huge, and expensive. In this generation of computers, vacuum tubes were used as the basic components of CPU and memory. Also, they were mainly dependent on the batch operating systems and punch cards. Magnetic tape and paper tape were used as output and input devices. For example ENIAC, UNIVAC-1, EDVAC, etc.
+
+Second Generation Computers
+In the period of the year, 1957-1963 was referred to as the period of the second generation of computers. It was the time of the transistor computers. In the second generation of computers, transistors (which were cheap in cost) are used. Transistors are also compact and consume less power. Transistor computers are faster than first-generation computers. For primary memory, magnetic cores were used, and for secondary memory magnetic disc and tapes for storage purposes. In second-generation computers, COBOL and FORTRAN are used as Assembly language and programming languages, and Batch processing and multiprogramming operating systems were used in these computers.
+For example IBM 1620, IBM 7094, CDC 1604, CDC 3600, etc.
+
+Third Generation Computers
+In the third generation of computers, integrated circuits (ICs) were used instead of transistors(in the second generation). A single IC consists of many transistors which increased the power of a computer and also reduced the cost. The third generation computers are more reliable, efficient, and smaller in size. It used remote processing, time-sharing, and multiprogramming as operating systems. FORTRON-II TO IV, COBOL, and PASCAL PL/1 were used which are high-level programming languages.
+For example IBM-360 series, Honeywell-6000 series, IBM-370/168, etc.
+
+Fourth Generation Computers
+The period of 1971-1980 was mainly the time of fourth generation computers. It used VLSI(Very Large Scale Integrated) circuits. VLSI is a chip containing millions of transistors and other circuit elements and because of these chips, the computers of this generation are more compact, powerful, fast, and affordable(low in cost). Real-time, time-sharing and distributed operating system are used by these computers. C and C++ are used as the programming languages in this generation of computers.
+For example STAR 1000, PDP 11, CRAY-1, CRAY-X-MP, etc.
+
+Fifth Generation Computers
+From 1980 – to till date these computers are used. The ULSI (Ultra Large Scale Integration) technology is used in fifth-generation computers instead of the VLSI technology of fourth-generation computers. Microprocessor chips with ten million electronic components are used in these computers. Parallel processing hardware and AI (Artificial Intelligence) software are also used in fifth-generation computers. The programming languages like C, C++, Java, .Net, etc. are used.
+For example Desktop, Laptop, NoteBook, UltraBook, etc.
+
+**Ultra large-scale integration (ULSI) is the process of integrating or embedding millions of transistors on a single silicon semiconductor microchip**
+
+
