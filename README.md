@@ -7,11 +7,11 @@ Content:
 2. Mathamatics (old)
 3. Axiom based Mathamatics (new)
 4. History of Computers
-5. Common Langauges Interface (CLI)
-6. Data Strucuture and Algorithm
-7. Notation
-8. Computer Langauges
-9. Language Learning Model (LLM)
-10. Artificial language (Ai)
-11. Machine Learning (ML)
-12. Internet Of Things (IoT)
+5. Data Strucuture and Algorithm
+6. Notation
+7. Computer Langauge
+9. Low-High level Language
+8. Language Learning Model (LLM)
+9. Artificial language (Ai)
+10. Machine Learning (ML)
+11. Internet Of Things (IoT)
