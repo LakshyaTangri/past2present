@@ -7,10 +7,10 @@ Content:
 2. Mathamatics (old)
 3. Axiom based Mathamatics (new)
 4. History of Computers
-5. Computer Langauges (shell & C)
+5. Common Langauges Interface (CLI)
 6. Data Strucuture and Algorithm
 7. Notation
-8. New Computer Langauges (Python)
+8. Computer Langauges
 9. Language Learning Model (LLM)
 10. Artificial language (Ai)
 11. Machine Learning (ML)
