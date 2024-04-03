@@ -9,9 +9,10 @@ Content:
 4. History of Computers
 5. Data Strucuture and Algorithm
 6. Notation (Omega(First) Theta(Mid) BigO(Last))
-7. Computer Langauge
-9. Low-High level Language
-8. Language Learning Model (LLM)
-9. Artificial language (Ai)
-10. Machine Learning (ML)
+7. Computer Langauge (Binary & Kernal)
+9. Low-High level Language (Shell, Bash & C, Java, etc)
+10. High Level Language (Python, JS, etc) 
+11. Language Learning Model (LLM)
+12. Artificial language (Ai)
+13. Machine Learning (ML)
 
