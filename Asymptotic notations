@@ -2,11 +2,32 @@
 
 https://www.geeksforgeeks.org/types-of-asymptotic-notations-in-complexity-analysis-of-algorithms/
 
-If it is resource problem, add time
-If it is time problem, add resource
+If it is a low resource/ memory/ RAM/ Kernal useage problem, more time adds up
+If it is low time problem, more RAM/ Kernal useage/calls adds up
 
-BigO is the best in all cases.
+e.g
+Reduce Time & memory to O(1) we will need to reduce the processing of amount of data the RAM will process. Hence, first we will select data structure with index and if possible the key (e.g Hashmap) and directly source by index which will reduce time as well.
+Reduce Time & memory to O(n) Low RAM process(calls to SCI(System Call Interface)) + one time indexing of the data structure.
+Reduce Time & memory to n(logn) The amount of calls depends on the amount  
 
-Omega (Best Case) notation represents the lower bound of the running time of an algorithm. Thus, it provides the best case complexity of an algorithm.
-Theta (Average Case) You add the running times for each possible input combination and take the average in the average case.
-Big-O (Worst Case) notation represents the upper bound of the running time of an algorithm. Therefore, it gives the worst-case complexity of an algorithm.
+
+Omega (Found at (0,0) of the run) notation represents the lower bound of the running time of an algorithm. Thus, it provides the best case complexity of an algorithm.
+Theta (Found in the mid of the run ([0]+[n-1] // 2 ) You add the running times for each possible input combination and take the average in the average case.
+Big-O (Found at the last of the of the run ([n-1] // 2) notation represents the upper bound of the running time of an algorithm. Therefore, it gives the worst-case complexity of an algorithm.
+*n = lenght()
+
+Since it is best to assume the last case scenrio as it covers all possibility, hence we go with Big0.
+
+Now, if you have an array with values, accessing the value at a given index is O(1) -- constant. It doesn't matter how many elements are the in array, if you have an index you can get the element directly.
+
+If, on the other hand, you are looking for a specific value, you'll have no choice but to look at every element (at least until you find the one, but that doesn't matter for the complexity thing). Thus, searching in a random array is O(n): the runtime corresponds to the number of elements.
+
+If, on the other hand, you have sorted array then you can do a "binary search", which would be O(log n). "Log n" is twos-logarithm, which is basically the inverse of 2^n. For example, 2^10 is 2*2*2*2...*2 10 times = 1024, and log2(1024) is 10. Thus, algorithms with O(log n) are generally considered pretty good: to find an element in a sorted array using binary search, if the array has up to 1024 elements then the binary search will only have to look at 10 of them to find any value. For 1025-2048 elements it would be 11 peeks at most, for 2049-4096 it would 12 and so on. So, adding more elements will only slowly increase the runtime.
+
+Of course, things can get a lot worse. A trivial sorting algorithm tends to be O(n**2), meaning that it needs 2^2 = 4 "operations" for an array with just 2 elements, 3^2 = 9 if the array has 3, 4^2 = 16 if the array has 4 elements and so on. Pretty bad actually, considering that an array with just 1000 elements would already require 1000*1000 = 1 million compares to sort. This is called exponential growth, and of course it can get even worse: O(n^3), O(n^4) etc. Increasingly bad.
+
+A "good" sorting algorithm is O(n*log n). Assuming an array with 1024 elements, this would be 1024*10=10240 compares --- much better than the 1 million we had before.
+
+Just take these O(...) as indicators for the runtime behavior (or memory footprint if applied to memory). I did plug in real numbers to you can see how the numbers change, but those are not important, and usually these complexities are worst case. Nonetheless, by just looking at the numbers, "constant time" is obviously best, exponential is always bad because runtime (or memory use) skyrockets really fast.
+
+EDIT: also, you are not really interested in constant factors; you don't usually see "O(2n)". This would still be "O(n)" -- the runtime relates directly to the number of elements.
