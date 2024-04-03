@@ -1,10 +1,20 @@
 After stardardizing the concept of the base tech (pure) and shifting to upscaling, implementation, penetration and diversification (applied)
 
-A stardard was set, defined by major bodies with power and user size, ECMA:
+A stardard was set, defined by major bodies with userbase, only Logical. ECMA:
 Everything you need to learn about standard computer langauge ECMA: https://tc39.es/ecma262/
 
+Content: 
+
+Intro
+CLI
+Application Development Languages
+System call Interface Language
+Kernal Langauges
+Hardware Binary Langauge
+DataBase Interaction Langauge
+
 ----------
-Basic
+Intro
 
 After the field of Information Technology landed on Ultra large-scale integration (ULSI) (is the process of integrating or embedding millions of transistors on a single silicon semiconductor microchip)
 The Field has not developed after that. However, the number of transistors from 1 Transistors to Crafted with 54 billion transistors, the NVIDIA Ampere architecture is the largest 7 nanometer (nm) chip ever built and features six key groundbreaking innovations in 2024.
